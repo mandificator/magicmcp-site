@@ -2,24 +2,24 @@
   <!-- Square canvas; content centered in the middle 630px band (y 285..915).
        qlmanage renders square; a centered 1200x630 crop yields the OG image. -->
   <rect width="1200" height="1200" fill="#ffffff"/>
-  <rect x="0" y="285" width="1200" height="8" fill="#2747e0"/>
+  <rect x="0" y="285" width="1200" height="8" fill="#ed8a00"/>
 
   <!-- brand -->
   <g transform="translate(80, 349)">
-    <rect width="56" height="56" rx="14" fill="#14161a"/>
+    <rect width="56" height="56" rx="14" fill="#243240"/>
     <text x="28" y="31" text-anchor="middle" dominant-baseline="central"
           font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="34" fill="#ffffff">m</text>
     <text x="74" y="29" dominant-baseline="central"
-          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#14161a">magicMCP</text>
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#243240">magicMCP</text>
   </g>
 
   <!-- headline -->
-  <text x="80" y="552" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="-2" font-size="62" fill="#14161a">Smarter shopping,</text>
-  <text x="80" y="628" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="-2" font-size="62" fill="#14161a">built into your assistant.</text>
+  <text x="80" y="552" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="-2" font-size="62" fill="#243240">Smarter shopping,</text>
+  <text x="80" y="628" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="-2" font-size="62" fill="#243240">built into your assistant.</text>
 
   <!-- sub -->
   <text x="80" y="722" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#6a7080">A Model Context Protocol connector for AI</text>
   <text x="80" y="762" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#6a7080">assistants — the right way to buy, at no extra cost.</text>
 
-  <text x="80" y="840" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#2747e0">magicmcp.xyz</text>
+  <text x="80" y="840" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#ed8a00">magicmcp.xyz</text>
 </svg>
