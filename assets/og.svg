@@ -7,15 +7,15 @@
   <!-- brand -->
   <g transform="translate(80, 349)">
     <rect width="56" height="56" rx="14" fill="#14161a"/>
-    <text x="28" y="30" text-anchor="middle" dominant-baseline="central"
-          font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#ffffff">m</text>
+    <text x="28" y="31" text-anchor="middle" dominant-baseline="central"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="34" fill="#ffffff">m</text>
     <text x="74" y="29" dominant-baseline="central"
-          font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#14161a">magicMCP</text>
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#14161a">magicMCP</text>
   </g>
 
   <!-- headline -->
-  <text x="80" y="555" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#14161a">Smarter shopping,</text>
-  <text x="80" y="632" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#14161a">built into your assistant.</text>
+  <text x="80" y="552" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="-2" font-size="62" fill="#14161a">Smarter shopping,</text>
+  <text x="80" y="628" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="-2" font-size="62" fill="#14161a">built into your assistant.</text>
 
   <!-- sub -->
   <text x="80" y="722" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#6a7080">A Model Context Protocol connector for AI</text>
