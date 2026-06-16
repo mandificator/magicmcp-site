@@ -129,18 +129,20 @@ a:hover { color: var(--accent-dark); }
   text-align: center;
   padding-top: clamp(2.5rem, 7vh, 5rem);
   padding-bottom: clamp(1.5rem, 4vh, 3rem);
-  gap: clamp(1.5rem, 4vh, 3rem);
+  gap: clamp(0.5rem, 2vh, 1.5rem);
 }
 .hero-copy { max-width: 54rem; margin-inline: auto; }
 .hero-art { width: 100%; display: flex; justify-content: center; }
 .hero-art img {
   display: block;
   width: 75vw;
-  height: auto;
+  height: 40vw;        /* crop the image's built-in top/bottom whitespace */
+  object-fit: cover;
+  object-position: center;
 }
 @media (max-width: 860px) {
-  .hero { padding-top: clamp(2rem, 8vw, 4rem); gap: 2rem; }
-  .hero-art img { width: 92vw; }
+  .hero { padding-top: clamp(2rem, 8vw, 4rem); }
+  .hero-art img { width: 92vw; height: 52vw; }
 }
 .eyebrow {
   margin: 0 0 1.4rem;
