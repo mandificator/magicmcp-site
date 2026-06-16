@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <!-- Square canvas; content centered in the middle 630px band (y 285..915).
+       qlmanage renders square; a centered 1200x630 crop yields the OG image. -->
+  <rect width="1200" height="1200" fill="#ffffff"/>
+  <rect x="0" y="285" width="1200" height="8" fill="#2747e0"/>
+
+  <!-- brand -->
+  <g transform="translate(80, 349)">
+    <rect width="56" height="56" rx="14" fill="#14161a"/>
+    <text x="28" y="30" text-anchor="middle" dominant-baseline="central"
+          font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#ffffff">m</text>
+    <text x="74" y="29" dominant-baseline="central"
+          font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#14161a">magicMCP</text>
+  </g>
+
+  <!-- headline -->
+  <text x="80" y="555" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#14161a">Smarter shopping,</text>
+  <text x="80" y="632" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#14161a">built into your assistant.</text>
+
+  <!-- sub -->
+  <text x="80" y="722" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#6a7080">A Model Context Protocol connector for AI</text>
+  <text x="80" y="762" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#6a7080">assistants — the right way to buy, at no extra cost.</text>
+
+  <text x="80" y="840" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#2747e0">magicmcp.xyz</text>
+</svg>
