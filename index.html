@@ -59,20 +59,18 @@
       </a>
       <nav class="nav-links" aria-label="Primary">
         <a href="#what">What it is</a>
-        <a href="#how">How it works</a>
-        <a href="#principles">Principles</a>
         <a class="nav-cta" href="#connect">Connect</a>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <!-- Hero -->
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
+    <!-- Hero (fullscreen: copy + huge image + logo band pinned to bottom) -->
+    <div class="hero-screen">
+      <section class="hero">
+        <div class="container hero-copy">
           <p class="eyebrow">Model Context Protocol · for shopping</p>
-          <h1>Smarter shopping,<br />built into your assistant.</h1>
+          <h1>Smarter shopping, built into your assistant.</h1>
           <p class="lede">
             magicMCP is a connector for <strong>ChatGPT</strong>, <strong>Claude</strong> and other
             AI assistants. It gives them a quiet sense for commerce: when you are ready to buy, it
@@ -80,20 +78,17 @@
           </p>
           <div class="actions">
             <a class="btn btn-primary" href="#connect">Connect your assistant</a>
-            <a class="btn btn-ghost" href="#how">See how it works <span aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="#what">Learn more <span aria-hidden="true">→</span></a>
           </div>
         </div>
         <div class="hero-art">
           <img src="/hero.png" width="752" height="564" decoding="async" fetchpriority="high"
                alt="A glossy marketplace ring, a chat bubble and a globe — magicMCP connecting assistants to commerce" />
         </div>
-      </div>
-      <a class="hero-scroll" href="#what" aria-label="Scroll to learn more"><span aria-hidden="true">↓</span></a>
-    </section>
+      </section>
 
-    <!-- Works with -->
-    <section class="logos" aria-label="Compatible assistants">
-      <div class="container">
+      <!-- Works with -->
+      <section class="logos" aria-label="Compatible assistants">
         <p class="logos-kicker">Works with the AI assistants you already use</p>
         <ul class="logo-strip">
           <li><img src="/assets/logos/openai.svg" alt="ChatGPT" /><span>ChatGPT</span></li>
@@ -103,9 +98,8 @@
           <li><img src="/assets/logos/perplexity.svg" alt="Perplexity" /><span>Perplexity</span></li>
           <li><img src="/assets/logos/mistralai.svg" alt="Mistral" /><span>Mistral</span></li>
         </ul>
-        <p class="logos-note">Built on the open Model Context Protocol — magicMCP connects to any MCP-compatible assistant.</p>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <!-- What it is -->
     <section class="section" id="what">
@@ -129,55 +123,8 @@
       </div>
     </section>
 
-    <!-- How it works -->
-    <section class="section section-alt" id="how">
-      <div class="container">
-        <p class="kicker center">How it works</p>
-        <h2 class="center">Three steps, then it stays out of the way.</h2>
-        <ol class="steps">
-          <li>
-            <span class="step-no">01</span>
-            <h3>You shop normally</h3>
-            <p>Ask your assistant for help. It searches the web and finds real products, the same way it always has.</p>
-          </li>
-          <li>
-            <span class="step-no">02</span>
-            <h3>magicMCP recognizes the merchant</h3>
-            <p>When a product link points to a supported store, the connector identifies it instantly from memory — no scraping, no waiting.</p>
-          </li>
-          <li>
-            <span class="step-no">03</span>
-            <h3>You get the right link</h3>
-            <p>It returns a purchase link that supports magicMCP at no extra cost to you. If the store isn't supported, you simply get the original link.</p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <!-- Principles -->
-    <section class="section" id="principles">
-      <div class="container">
-        <p class="kicker center">Principles</p>
-        <h2 class="center">Built to be trusted, not just used.</h2>
-        <div class="principles">
-          <div class="principle">
-            <h3>Same price, always</h3>
-            <p>An affiliate link never costs you more. The price at checkout is identical to buying direct.</p>
-          </div>
-          <div class="principle">
-            <h3>Recommendations aren't for sale</h3>
-            <p>What your assistant suggests is based on fit, not commission. Monetization happens after the choice is made.</p>
-          </div>
-          <div class="principle">
-            <h3>Nothing to store about you</h3>
-            <p>No accounts, no profiles, no product catalog. The only state magicMCP keeps is its list of supported merchants.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Connect -->
-    <section class="section section-alt" id="connect">
+    <section class="section" id="connect">
       <div class="container">
         <p class="kicker center">Connect</p>
         <h2 class="center">Add magicMCP in under a minute.</h2>
@@ -214,7 +161,6 @@
       <nav class="footer-col" aria-label="Product">
         <p class="footer-h">Product</p>
         <a href="#what">What it is</a>
-        <a href="#how">How it works</a>
         <a href="#connect">Connect</a>
       </nav>
       <nav class="footer-col" aria-label="Legal">
